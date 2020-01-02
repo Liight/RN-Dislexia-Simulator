@@ -98,6 +98,7 @@ export default class App extends Component {
   };
 
   render() {
+    console.ignoredYellowBox = ['Warning:'];
     const myString1 = this.state.string1;
     const myString2 = this.state.string2;
     const myString3 = this.state.string3;
